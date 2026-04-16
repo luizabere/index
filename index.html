@@ -1,59 +1,64 @@
-<!doctype html>
-<html>
-  <head>
-    <title>BPMFTD</title>
+<head>
+    <title>BPM FTD</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body
     class="d-flex flex-column"
     style="
-      background: linear-gradient(#1c9f1c, #006e07);
+      background: linear-gradient(#529446, #1f500e, #132A13);
       min-height: 100vh;
       font-family: &quot;Inter&quot;, sans-serif;
     "
   >
-    <nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
-      <div class="container-fluid">
+          <nav class="navbar navbar-expand-sm sticky-top" 
+            style="background-color: rgba(255, 255, 255, 0.1); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);">
+          <div class="container-fluid">
+
         <img
           src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/logo.png"
           alt="logo"
           style="width: 60px"
           class="ms-5"
-        />
-        <ul class="navbar-nav gap-3 px-5 mx-3" style="font-size: 18px">
+        >
+
+        <ul class="navbar-nav gap-3 px-5 mx-3" style="font-size: 18px;">
           <li class="nav-item">
-            <a class="nav-link active" href="#home">Home</a>
+            <a class="nav-link active  text-white" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#profile">Profile</a>
+            <a class="nav-link active text-white" href="#profile">Profile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#structure">Structure</a>
+            <a class="nav-link active text-white" href="#structure">Structure</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#commision">Commission</a>
+            <a class="nav-link active text-white" href="#commision">Commission</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#events">Events</a>
+            <a class="nav-link active text-white" href="#events">Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#contacts">Contacts</a>
+            <a class="nav-link active text-white" href="#contacts">Contacts</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <div class="text-white text-center pt-5 position-relative" id="home">
+    <div class="text-white text-center pt-0 position-relative" id="home">
       <img
         src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/hero.png"
         alt="BPMFTD"
-        style="max-width: 100%; height: 90vh"
+        style="max-width: 100%; height: 88vh"
       />
       <div
         class="position-absolute bottom-0 ms-5 p-4 text-white text-start"
@@ -89,133 +94,81 @@
     </div>
 
     <div class="container pt-5" id="structure">
-      <div class="badge rounded-pill bg-light mt-5 px-4 py-3 text-dark shadow">
-        <h1 class="mb-0"><b>Structure</b></h1>
+        <div class="container">
+      <div class="mt-5 px-3 py-1 text-center">
+        <h1 class="text-white" style="font-size: 45px"><b>Structure</b></h1>
       </div>
-      <div class="mt-5">
-        <div class="row g-0 mb-5 justify-content-center">
-          <div class="col-auto">
-            <div class="card bg-transparent border-0" style="width: 213px">
-              <div class="card-body p-0">
-                <img
-                  src="https://raw.githubusercontent.com/luizabere/fotobpm/main/dhancis.jpeg"
-                  alt="dhancis"
-                  style="
-                    width: 213px;
-                    height: 293px;
-                    object-fit: cover;
-                    display: block;
-                  "
-                />
-                <div class="mt-2 text-white">
-                  <p class="fw-bold mb-0">Evan Dhancis Muljana</p>
-                  <p class="small">Ketua</p>
-                </div>
-              </div>
-            </div>
+    </div>
+
+  <div class="row g-0 mt-5 mb-5 justify-content-center">
+    <div class="col-auto">
+      <div class="card bg-transparent border-0" style ="width: 213px;">
+        <div class="card-body p-0">
+          <img src="https://raw.githubusercontent.com/luizabere/fotobpm/main/dhancis.jpeg" alt="dhancis" style="width: 213px; height: 293px; object-fit: cover; display:block;">
+          <div class="mt-2 text-white">
+            <h5 class="fw-bold mb-0">Evan Dhancis M.</h5>
+            <h6 class="mt-2">Ketua</h6>
           </div>
-          <div class="col-auto">
-            <div class="card bg-transparent border-0" style="width: 213px">
-              <div class="card-body p-0">
-                <img
-                  src="https://raw.githubusercontent.com/luizabere/fotobpm/main/luiza.jpeg"
-                  alt="luiza"
-                  style="
-                    width: 213px;
-                    height: 293px;
-                    object-fit: cover;
-                    display: block;
-                  "
-                />
-                <div class="mt-2 text-white">
-                  <p class="fw-bold mb-0">Scolastika Luiza A. I. B.</p>
-                  <p class="small">Sekretaris 1</p>
-                </div>
-              </div>
-            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-auto">
+      <div class="card bg-transparent border-0" style ="width: 213px;">
+        <div class="card-body p-0">
+          <img src="https://raw.githubusercontent.com/luizabere/fotobpm/main/luiza.jpeg" alt="luiza" style="width: 213px; height: 293px; object-fit: cover; display:block;">
+          <div class="mt-2 text-white">
+            <h5 class="fw-bold mb-0">Scolastika L. A. I. B.</h5>
+            <h6 class="mt-2">Sekretaris 1</h6>
           </div>
-          <div class="col-auto">
-            <div class="card bg-transparent border-0" style="width: 213px">
-              <div class="card-body p-0">
-                <img
-                  src="https://raw.githubusercontent.com/luizabere/fotobpm/main/tian.jpeg"
-                  alt="tian"
-                  style="
-                    width: 213px;
-                    height: 293px;
-                    object-fit: cover;
-                    display: block;
-                  "
-                />
-                <div class="mt-2 text-white">
-                  <p class="fw-bold mb-0">Christian Mikhael A. N.</p>
-                  <p class="small">Sekretaris 2</p>
-                </div>
-              </div>
-            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-auto">
+      <div class="card bg-transparent border-0" style ="width: 213px;">
+        <div class="card-body p-0">
+          <img src="https://raw.githubusercontent.com/luizabere/fotobpm/main/tian.jpeg" alt="tian" style="width: 213px; height: 293px; object-fit: cover; display:block;">
+          <div class="mt-2 text-white">
+            <h5 class="fw-bold mb-0">Christian M. A. N.</h5>
+            <h6 class="mt-2">Sekretaris 2</h6>
           </div>
-          <div class="col-auto">
-            <div class="card bg-transparent border-0" style="width: 213px">
-              <div class="card-body p-0">
-                <img
-                  src="https://raw.githubusercontent.com/luizabere/fotobpm/main/lucas.jpeg"
-                  alt="lucas"
-                  style="
-                    width: 213px;
-                    height: 293px;
-                    object-fit: cover;
-                    display: block;
-                  "
-                />
-                <div class="mt-2 text-white">
-                  <p class="fw-bold mb-0">Lucas Vincent Kurniawan</p>
-                  <p class="small">Bendahara</p>
-                </div>
-              </div>
-            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-auto">
+      <div class="card bg-transparent border-0" style ="width: 213px;">
+        <div class="card-body p-0">
+          <img src="https://raw.githubusercontent.com/luizabere/fotobpm/main/lucas.jpeg" alt="lucas" style="width: 213px; height: 293px; object-fit: cover; display:block;">
+          <div class="mt-2 text-white">
+            <h5 class="fw-bold mb-0">Lucas Vincent K.</h5>
+            <h6 class="mt-2">Bendahara</h6>
           </div>
-          <div class="col-auto">
-            <div class="card bg-transparent border-0" style="width: 213px">
-              <div class="card-body p-0">
-                <img
-                  src="https://raw.githubusercontent.com/luizabere/fotobpm/main/yeshua.jpeg"
-                  alt="yeshua"
-                  style="
-                    width: 213px;
-                    height: 293px;
-                    object-fit: cover;
-                    display: block;
-                  "
-                />
-                <div class="mt-2 text-white">
-                  <p class="fw-bold mb-0">Yeshua Ingan Pusuh M. T.</p>
-                  <p class="small">Koor. Komisi Organisasi</p>
-                </div>
-              </div>
-            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-auto">
+      <div class="card bg-transparent border-0" style ="width: 213px;">
+        <div class="card-body p-0">
+          <img src="https://raw.githubusercontent.com/luizabere/fotobpm/main/yeshua.jpeg" alt="yeshua" style="width: 213px; height: 293px; object-fit: cover; display:block;">
+          <div class="mt-2 text-white">
+            <h5 class="fw-bold mb-0">Yeshua Ingan P. M. T.</h5>
+            <h6 class="mt-2">Koor. Komisi Organisasi</h6>
           </div>
-          <div class="col-auto">
-            <div class="card bg-transparent border-0" style="width: 213px">
-              <div class="card-body p-0">
-                <img
-                  src="https://raw.githubusercontent.com/luizabere/fotobpm/main/eric.jpeg"
-                  alt="eric"
-                  style="
-                    width: 213px;
-                    height: 293px;
-                    object-fit: cover;
-                    display: block;
-                  "
-                />
-                <div class="mt-2 text-white">
-                  <p class="fw-bold mb-0">Eric Wibisono</p>
-                  <p class="small">Koor. Komisi Anggaran</p>
-                </div>
-              </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-auto">
+        <div class="card bg-transparent border-0" style ="width: 213px;">
+          <div class="card-body p-0">
+            <img src="https://raw.githubusercontent.com/luizabere/fotobpm/main/jemi.jpeg" alt="jeremy n" style="width: 213px; height: 293px; object-fit: cover; display:block;">
+            <div class="mt-2 text-white">
+              <h5 class="fw-bold mb-0">Jeremy Natanael S. P.</h5>
+              <h6 class="mt-2">Koor. Komisi Kemahasiswaan</h6>
             </div>
           </div>
         </div>
       </div>
+  </div>
+
       <div class="mt-5 d-flex align-items-center justify-content-center">
         <a href="structure.html" class="text-decoration-none">
           <div
@@ -234,187 +187,161 @@
     </div>
 
     <div class="container pt-5" id="commision">
-      <div class="badge rounded-pill bg-light mt-5 px-4 py-3 text-dark shadow">
-        <h1 class="mb-0"><b>Commission</b></h1>
+      <div class="container">
+      <div class="mt-5 px-3 py-1 text-center">
+        <h1 class="text-white" style="font-size: 45px"><b>Commission</b></h1>
       </div>
-      <div class="mt-5">
-        <div class="container-fluid pb-5">
-          <div class="row g-4 justify-content-center px-4 mx-5">
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="card border-0 bg-transparent h-100">
-                <div
-                  class="card bg-dark text-white border-0"
-                  style="border-radius: 0; overflow: hidden"
-                >
-                  <img
-                    src="https://raw.githubusercontent.com/luizabere/fotobpm/main/bph.jpeg"
-                    class="w-100"
-                    style="aspect-ratio: 401/534; object-fit: cover"
-                    alt="BPH"
-                  />
-                  <div
-                    class="card-img-overlay d-flex flex-column align-items-center justify-content-start"
-                  >
-                    <h5
-                      class="mt-3 text-center mb-1"
-                      style="letter-spacing: 2.5px"
-                    >
-                      Badan
-                    </h5>
-                    <h5
-                      class="fw-bold text-center"
-                      style="letter-spacing: 2.5px"
-                    >
-                      Pengurus Harian
-                    </h5>
-                  </div>
-                </div>
-                <div
-                  class="card-body bg-white py-4 px-3 shadow"
-                  style="border-radius: 0 0 50px 50px"
-                >
-                  <p class="card-text small text-dark text-center mb-0">
-                    Mengkoordinasikan seluruh komisi di BPM FTD, bertanggung
-                    jawab dalam pengambilan keputusan organisasi, serta menyusun
-                    dan mengarahkan program kerja BPM FTD agar berjalan efektif
-                    dan terstruktur.
-                  </p>
-                </div>
+    </div>
+
+    <div class="container pb-5 mt-5">
+      <div class="row g-4 justify-content-center px-4 mx-md-5">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card border-0 bg-transparent h-100">
+            <div
+              class="card bg-dark rounded-0 text-white border-0"
+              style="overflow: hidden"
+            >
+              <img
+                src="https://raw.githubusercontent.com/luizabere/fotobpm/main/bph.jpeg"
+                class="w-100"
+                style="aspect-ratio: 401/534; object-fit: cover"
+                alt="BPH"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column align-items-center"
+              >
+                <h5 class="mt-3 text-center mb-1" style="letter-spacing: 2.5px">
+                  Badan
+                </h5>
+                <h5 class="fw-bold text-center" style="letter-spacing: 2.5px">
+                  Pengurus Harian
+                </h5>
               </div>
             </div>
+            <div
+              class="card-body bg-white bg-opacity-10 border-white border-opacity-25 py-4 px-3 shadow"
+            >
+            <h6 class="card-text text-white text-center mb-2"><b>Tugas Pokok dan Fungsi</b></h6>
+              <p class="card-text small text-white text-center mb-0"><i>
+                Mengkoordinasikan seluruh komisi di BPM FTD, bertanggung jawab
+                dalam pengambilan keputusan organisasi, serta menyusun dan
+                mengarahkan program kerja BPM FTD agar berjalan efektif dan
+                terstruktur.
+              </i></p>
+            </div>
+          </div>
+        </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="card border-0 bg-transparent h-100">
-                <div
-                  class="card bg-dark text-white border-0 position-relative"
-                  style="border-radius: 0; overflow: hidden"
-                >
-                  <img
-                    src="https://raw.githubusercontent.com/luizabere/fotobpm/main/komorg.jpeg"
-                    class="w-100"
-                    style="aspect-ratio: 401/534; object-fit: cover"
-                    alt="Organisasi"
-                  />
-                  <div
-                    class="card-img-overlay d-flex flex-column align-items-center justify-content-start"
-                  >
-                    <h5
-                      class="mt-3 text-center mb-1"
-                      style="letter-spacing: 2.5px"
-                    >
-                      Komisi
-                    </h5>
-                    <h5
-                      class="fw-bold text-center"
-                      style="letter-spacing: 2.5px"
-                    >
-                      Organisasi
-                    </h5>
-                  </div>
-                </div>
-                <div
-                  class="card-body bg-white py-4 px-3 shadow"
-                  style="border-radius: 0 0 50px 50px"
-                >
-                  <p class="card-text small text-dark text-center mb-0">
-                    Melakukan koordinasi dengan BPH dan HMP FTD dalam
-                    pelaksanaan program kerja yang telah ditetapkan, serta
-                    bertanggung jawab untuk memeriksa pemberkasan LK Eksekutif
-                    HMP FTD.
-                  </p>
-                </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card border-0 bg-transparent h-100">
+            <div
+              class="card bg-dark rounded-0 text-white border-0 position-relative"
+              style="overflow: hidden"
+            >
+              <img
+                src="https://raw.githubusercontent.com/luizabere/fotobpm/main/komorg.jpeg"
+                class="w-100"
+                style="aspect-ratio: 401/534; object-fit: cover"
+                alt="Organisasi"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column align-items-center"
+              >
+                <h5 class="mt-3 text-center mb-1" style="letter-spacing: 2.5px">
+                  Komisi
+                </h5>
+                <h5 class="fw-bold text-center" style="letter-spacing: 2.5px">
+                  Organisasi
+                </h5>
               </div>
             </div>
+            <div
+              class="card-body bg-white bg-opacity-10 border-white border-opacity-25 py-4 px-3 shadow"
+            >
+            <h6 class="card-text text-white text-center mb-2"><b>Tugas Pokok dan Fungsi</b></h6>
+              <p class="card-text small text-white text-center mb-0"><i>
+                Melakukan koordinasi dengan BPH dan HMP FTD dalam pelaksanaan
+                program kerja yang telah ditetapkan, serta bertanggung jawab
+                untuk memeriksa pemberkasan LK Eksekutif HMP FTD.
+              </i></p>
+            </div>
+          </div>
+        </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="card border-0 bg-transparent h-100">
-                <div
-                  class="card bg-dark text-white border-0 position-relative"
-                  style="border-radius: 0; overflow: hidden"
-                >
-                  <img
-                    src="https://raw.githubusercontent.com/luizabere/fotobpm/main/komkem.jpeg"
-                    class="w-100"
-                    style="aspect-ratio: 401/534; object-fit: cover"
-                    alt="Kemahasiswaan"
-                  />
-                  <div
-                    class="card-img-overlay d-flex flex-column align-items-center justify-content-start"
-                  >
-                    <h5
-                      class="mt-3 text-center mb-1"
-                      style="letter-spacing: 2.5px"
-                    >
-                      Komisi
-                    </h5>
-                    <h5
-                      class="fw-bold text-center"
-                      style="letter-spacing: 2.5px"
-                    >
-                      Kemahasiswaan
-                    </h5>
-                  </div>
-                </div>
-                <div
-                  class="card-body bg-white py-4 px-3 shadow"
-                  style="border-radius: 0 0 50px 50px"
-                >
-                  <p class="card-text small text-dark text-center mb-0">
-                    Menampung dan menjaring aspirasi mahasiswa serta
-                    mengadvokasi aspirasi tersebut agar dapat ditindaklanjuti
-                    secara tepat, juga melakukan pemeliharaan sosial media BPM
-                    FTD.
-                  </p>
-                </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card border-0 bg-transparent h-100">
+            <div
+              class="card bg-dark rounded-0 text-white border-0 position-relative"
+              style="overflow: hidden"
+            >
+              <img
+                src="https://raw.githubusercontent.com/luizabere/fotobpm/main/komkem.jpeg"
+                class="w-100"
+                style="aspect-ratio: 401/534; object-fit: cover"
+                alt="Kemahasiswaan"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column align-items-center"
+              >
+                <h5 class="mt-3 text-center mb-1" style="letter-spacing: 2.5px">
+                  Komisi
+                </h5>
+                <h5 class="fw-bold text-center" style="letter-spacing: 2.5px">
+                  Kemahasiswaan
+                </h5>
               </div>
             </div>
+            <div
+              class="card-body bg-white bg-opacity-10 border-white border-opacity-25 py-4 px-3 shadow"
+            >
+            <h6 class="card-text text-white text-center mb-2"><b>Tugas Pokok dan Fungsi</b></h6>
+              <p class="card-text small text-white text-center mb-0"><i>
+                Menampung dan menjaring aspirasi mahasiswa serta mengadvokasi
+                aspirasi tersebut agar dapat ditindaklanjuti secara tepat, juga
+                melakukan pemeliharaan sosial media BPM FTD.
+              </i></p>
+            </div>
+          </div>
+        </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="card border-0 bg-transparent h-100">
-                <div
-                  class="card bg-dark text-white border-0 position-relative"
-                  style="border-radius: 0; overflow: hidden"
-                >
-                  <img
-                    src="https://raw.githubusercontent.com/luizabere/fotobpm/main/komang.jpeg"
-                    class="w-100"
-                    style="aspect-ratio: 401/534; object-fit: cover"
-                    alt="Anggaran"
-                  />
-                  <div
-                    class="card-img-overlay d-flex flex-column align-items-center justify-content-start"
-                  >
-                    <h5
-                      class="mt-3 text-center mb-1"
-                      style="letter-spacing: 2.5px"
-                    >
-                      Komisi
-                    </h5>
-                    <h5
-                      class="fw-bold text-center"
-                      style="letter-spacing: 2.5px"
-                    >
-                      Anggaran
-                    </h5>
-                  </div>
-                </div>
-                <div
-                  class="card-body bg-white py-4 px-3 shadow"
-                  style="border-radius: 0 0 50px 50px"
-                >
-                  <p class="card-text small text-dark text-center mb-0">
-                    Merekapitulasi serta menetapkan regulasi anggaran, serta
-                    menjadi tempat konsultasi terkait pengelolaan dana dan
-                    anggaran, serta bertanggung jawab untuk memeriksa
-                    pemberkasan LK Eksekutif HMP FTD.
-                  </p>
-                </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card border-0 bg-transparent h-100">
+            <div
+              class="card bg-dark  rounded-0 text-white border-0 position-relative"
+              style="overflow: hidden"
+            >
+              <img
+                src="https://raw.githubusercontent.com/luizabere/fotobpm/main/komang.jpeg"
+                class="w-100"
+                style="aspect-ratio: 401/534; object-fit: cover"
+                alt="Anggaran"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column align-items-center"
+              >
+                <h5 class="mt-3 text-center mb-1" style="letter-spacing: 2.5px">
+                  Komisi
+                </h5>
+                <h5 class="fw-bold text-center" style="letter-spacing: 2.5px">
+                  Anggaran
+                </h5>
               </div>
+            </div>
+            <div
+              class="card-body bg-white bg-opacity-10 border-white border-opacity-25 py-4 px-3 shadow"
+            >
+            <h6 class="card-text text-white text-center mb-2"><b>Tugas Pokok dan Fungsi</b></h6>
+              <p class="card-text small text-white text-center mb-0"><i>
+                Merekapitulasi serta menetapkan regulasi anggaran, serta menjadi
+                tempat konsultasi terkait pengelolaan dana dan anggaran, serta
+                bertanggung jawab untuk memeriksa pemberkasan LK Eksekutif HMP
+                FTD.
+              </i></p>
             </div>
           </div>
         </div>
       </div>
-      <div class="mt-2 d-flex align-items-center justify-content-center">
+    </div>      <div class="mt-2 d-flex align-items-center justify-content-center">
         <a href="commision.html" class="text-decoration-none">
           <div
             class="d-flex align-items-center text-light"
@@ -432,8 +359,8 @@
     </div>
 
     <div class="container pt-5" id="events">
-      <div class="badge rounded-pill bg-light mt-5 px-4 py-3 text-dark shadow">
-        <h1 class="mb-0"><b>Events</b></h1>
+      <div class="mt-5 px-4 py-3 text-white">
+        <h1 class="mb-0 text-center" style="font-size: 45px" ><b>Events</b></h1>
       </div>
       <div class="mt-5">
         <div class="row mx-5 mt-3">
@@ -738,178 +665,117 @@
         </a>
       </div>
     </div>
+<div class="container pt-5" id="contacts">
+  <div class="mt-5 mb-5 text-white text-center">
+    <h1 class="display-4 fw-bold">Contacts</h1>
+  </div>
 
-    <div class="container pt-5" id="contacts">
-      <div class="badge rounded-pill bg-light mt-5 px-4 py-3 text-dark shadow">
-        <h1 class="mb-0"><b>Contacts</b></h1>
-      </div>
+  <div class="row g-4 justify-content-between">
+    <div class="col-md-5">
+      <h2 class="text-white fw-bold mb-3">Get In Touch</h2>
+      <p class="text-white mb-4" style="font-size: 1.1rem; opacity: 0.8;">
+        Kritik & saran anda sangat dibutuhkan untuk inovasi/pelayanan kami.
+      </p>
 
-      <div class="row mt-4">
-        <div class="col-sm-6">
-          <h2 class="text-white">Get In Touch</h2>
+      <form action="https://formspree.io/f/mpqoelej" method="POST">
+        <div class="mb-3 border-bottom border-white">
+          <label for="name" class="form-label text-white small fw-bold">NAMA</label>
+          <input type="text" class="form-control shadow-none" id="name" name="name" 
+                 style="border: none; background: transparent; color: #ffffff; padding-left: 0;">
         </div>
-        <div class="col-sm-6">
-          <h2 class="text-white">Quick Connect</h2>
+        
+        <div class="mb-3 border-bottom border-white">
+          <label for="email" class="form-label text-white small fw-bold">EMAIL</label>
+          <input type="email" class="form-control shadow-none" id="email" name="email" 
+                 style="border: none; background: transparent; color: #ffffff; padding-left: 0;">
         </div>
-      </div>
-
-      <div class="row mt-3">
-        <div class="col-sm-6">
-          <p class="text-white" style="font-size: 22px">
-            Kritik & saran anda sangat dibutuhkan untuk <br />inovasi/pelayanan
-            kami.
-          </p>
+        
+        <div class="mb-4 border-bottom border-white">
+          <label for="comment" class="form-label text-white small fw-bold">PESAN</label>
+          <textarea class="form-control shadow-none" id="comment" name="text" rows="3" 
+                    style="border: none; background: transparent; color: #ffffff; padding-left: 0;"></textarea>
         </div>
-        <div class="col-sm-6">
-          <a href="mailto:bpmftd@machung.ac.id" class="text-decoration-none">
-            <div
-              class="p-3 rounded-pill bg-light d-flex align-items-center text-dark shadow"
-            >
-              <img
-                src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/mail.png"
-                alt="Mail"
-                class="me-3"
-                style="width: 45px; height: auto"
-              />
-              <p class="mb-0" style="font-size: 24px; letter-spacing: 2px">
-                bpmftd@machung.ac.id
-              </p>
-            </div>
-          </a>
-        </div>
-      </div>
+        
+        <button type="submit" class="btn btn-light rounded-pill px-4 fw-bold d-flex align-items-center gap-2">
+          Submit 
+          <img src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/send.png" alt="Send" style="width: 15px;">
+        </button>
+      </form>
+    </div>
 
-      <div class="row mt-3">
-        <div class="col-sm-6">
-          <form action="https://formspree.io/f/mpqoelej" method="POST">
-            <div class="border-bottom">
-              <label for="name" class="form-label text-white">Nama</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                name="name"
-                style="border: none; background: transparent; color: #ffffff"
-              />
-            </div>
-            <div class="border-bottom">
-              <label for="email" class="form-label text-white">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                name="email"
-                style="border: none; background: transparent; color: #ffffff"
-              />
-            </div>
-            <div class="border-bottom">
-              <label for="comment" class="form-label text-white">Message</label>
-              <textarea
-                class="form-control"
-                id="comment"
-                name="text"
-                rows="4"
-                style="border: none; background: transparent; color: #ffffff"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              class="btn btn-light rounded-pill mt-3 d-flex align-items-left"
-            >
-              <b>Submit</b>
-              <img
-                src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/send.png"
-                alt="Send"
-                style="width: 20px; height: auto"
-              />
-            </button>
-          </form>
-        </div>
-
-        <div class="col-sm-6">
-          <div class="row text-center g-3">
-            <div class="col-4">
-              <a
-                href="https://www.youtube.com/@BPMFTDUniversitasMaChung-b1d"
-                class="text-decoration-none"
-              >
-                <div
-                  class="rounded-5 bg-light d-flex flex-column justify-content-center align-items-center shadow"
-                  style="height: 180px; width: 160px; margin: auto"
-                >
-                  <img
-                    src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/yt.png"
-                    alt="YouTube"
-                    style="height: 65px; width: auto"
-                  />
-                  <div
-                    class="small mt-3 text-dark"
-                    style="font-size: 20px; letter-spacing: 2px"
-                  >
-                    <b>YouTube</b>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-4">
-              <a
-                href="https://www.instagram.com/bpmftdmachung/"
-                class="text-decoration-none"
-              >
-                <div
-                  class="rounded-5 bg-light d-flex flex-column justify-content-center align-items-center shadow"
-                  style="height: 180px; width: 160px; margin: auto"
-                >
-                  <img
-                    src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/ig.png"
-                    alt="Instagram"
-                    style="height: 65px; width: auto"
-                  />
-                  <div
-                    class="small mt-3 text-dark"
-                    style="font-size: 20px; letter-spacing: 2px"
-                  >
-                    <b>Instagram</b>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-4">
-              <a
-                href="https://www.tiktok.com/@bpm.ftd.machung"
-                class="text-decoration-none"
-              >
-                <div
-                  class="rounded-5 bg-light d-flex flex-column justify-content-center align-items-center shadow"
-                  style="height: 180px; width: 160px; margin: auto"
-                >
-                  <img
-                    src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/ic_baseline-tiktok.png"
-                    alt="TikTok"
-                    style="height: 65px; width: auto"
-                  />
-                  <div
-                    class="small mt-3 text-dark"
-                    style="font-size: 20px; letter-spacing: 2px"
-                  >
-                    <b>TikTok</b>
-                  </div>
-                </div>
-              </a>
+    <div class="col-md-6 mt-5 mt-md-0">
+      <h2 class="text-white fw-bold mb-4 text-md-end">Quick Connect</h2>
+      
+      <div class="d-flex flex-column align-items-md-end align-items-center gap-3">
+        
+        <a href="mailto:bpmftd@machung.ac.id" class="text-decoration-none w-100" style="max-width: 400px;">
+          <div class="p-3 rounded-pill bg-light d-flex align-items-center shadow-sm">
+            <img src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/mail.png" alt="Mail" class="me-3" style="width: 35px;">
+            <div class="overflow-hidden">
+              <small class="text-muted fw-bold d-block" style="font-size: 0.7rem;">EMAIL KAMI</small>
+              <p class="mb-0 fw-bold text-dark text-truncate">bpmftd@machung.ac.id</p>
             </div>
           </div>
+        </a>
+
+        <div class="p-3 rounded-pill bg-light d-flex align-items-center shadow-sm w-100" style="max-width: 400px;">
+          <div class="rounded-circle bg-dark d-flex align-items-center justify-content-center me-3" style="width: 35px; height: 35px;">
+            <i class="fas fa-phone text-white small"></i>
+          </div>
+          <div>
+            <small class="text-muted fw-bold d-block" style="font-size: 0.7rem;">KERJA SAMA</small>
+            <p class="mb-0 fw-bold text-dark">0813-2856-0870</p>
+          </div>
         </div>
+
       </div>
     </div>
-    <footer class="text-center text-lg-start bg-light text-muted mt-5">
-      <div
-        class="text-center p-4"
-        style="background-color: rgba(0, 0, 0, 0.05)"
-      >
-        © 2026 All rights reserved. BPM FTD
-      </div>
+  </div>
+</div>
+    <footer class="text-center text-lg-start bg-white mt-5 pt-2">
+        <div class="container mt-4 mb-2">
+            <div class="row mt-3 justify-content-between align-items-start">
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mb-4 text-md-start text-center">
+                    <h6 class="text-uppercase fw-bold mb-4">Tautan Administratif</h6>
+                    <div class="d-flex flex-column gap-2">
+                        <a href="https://machungac-my.sharepoint.com/:b:/g/personal/bpmftd_machung_ac_id/IQAeA1CsMxFsQatMe3HcKAptAafXeC2rp93EZLOECwr0uAg?e=Xp6tWm" class="text-reset text-decoration-none">Modul HMP FTD</a>
+                        <a href="https://machungac-my.sharepoint.com/:f:/g/personal/bpmftd_machung_ac_id/IgBoYReDx6tLQpb5-IrHjo5LAXGB41_IiMytxS5cFnLcDDE?e=zQoK23" class="text-reset text-decoration-none">Pemberkasan HMP FTD</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-xl-4 text-center">
+                    <div class="mb-3">
+                        <img src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/logo.png" alt="logo" style="height: 70px" />
+                        <div class="mt-2" style="font-size: 1.25rem;"><b>BPM FTD</b></div>
+                    </div>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="https://www.youtube.com/@BPMFTDUniversitasMaChung-b1d" class="btn btn-white btn-sm" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                            <img src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/yt.png" alt="YouTube" style="height: 18px; width: auto" />
+                        </a>
+                        <a href="https://www.instagram.com/bpmftdmachung" class="btn btn-white btn-sm" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                            <img src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/ig.png" alt="Instagram" style="height: 18px; width: auto" />
+                        </a>
+                        <a href="https://www.tiktok.com/@bpm.ftd.machung" class="btn btn-white btn-sm" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                            <img src="https://raw.githubusercontent.com/iAlvinnZ/assets/main/ic_baseline-tiktok.png" alt="TikTok" style="height: 18px; width: auto" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mb-4 text-md-end text-center">
+                    <h6 class="text-uppercase fw-bold mb-4">Hubungi Kami</h6>
+                    <p class="mb-2">081328560870 <i class="fas fa-phone ms-2"></i></p>
+                    <p class="mb-2">081328560870 <i class="fas fa-comment-dots ms-2"></i></p>
+                    <p class="mb-2">bpmftd@machung.ac.id <i class="fas fa-envelope ms-2"></i></p>
+                </div>
+
+            </div>
+        </div>
+
+        <hr class="my-2 text-muted mx-2" style="opacity: 0.1;">
+        <div class="text-center p-3 pt-2">
+            © 2026 Copyright <strong>BPM FTD</strong> - All rights reserved.
+        </div>
     </footer>
   </body>
 </html>
